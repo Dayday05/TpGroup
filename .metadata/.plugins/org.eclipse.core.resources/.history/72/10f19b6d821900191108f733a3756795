@@ -1,0 +1,52 @@
+package fr.formation;
+
+import java.util.ArrayList;
+
+public class Students {
+	
+	public static void main(String[] args) {
+		
+		ArrayList <String> studentsName = new ArrayList<String>();
+		
+		studentsName.add("Aurélien");
+		studentsName.add("Pierre");
+		studentsName.add("Bayrem");
+		studentsName.add("Jennifer");
+		studentsName.add("Héléne");
+		studentsName.add("David");
+		studentsName.add("Julien");
+		
+		ArrayList <String> studentsGroup = new ArrayList<String>();
+		
+		studentsGroup.add(3);
+		studentsGroup.add(1);
+		studentsGroup.add(1);
+		studentsGroup.add(2);
+		studentsGroup.add(3);
+		studentsGroup.add(2);
+		studentsGroup.add(2);
+		
+		ArrayList <String> studentsIsInternal = new ArrayList <String>();
+		
+		studentsIsInternal.add(false);
+		studentsIsInternal.add(true);
+		studentsIsInternal.add(true);
+		studentsIsInternal.add(false);
+		studentsIsInternal.add(true);
+		studentsIsInternal.add(false);
+		studentsIsInternal.add(true);
+		
+		ArrayList <String> listStudents = new ArrayList <String>();
+		
+		listStudents.addAll(studentsName);
+		listStudents.addAll(studentsGroup);
+		listStudents.addAll(studentsIsInternal);
+		
+		System.out.println(listStudents);
+		
+		for(String temp : listStudents){
+			System.out.println(temp);
+		}
+		
+	}
+}

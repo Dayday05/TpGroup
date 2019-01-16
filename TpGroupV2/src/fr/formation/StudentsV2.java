@@ -1,0 +1,51 @@
+package fr.formation;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class StudentsV2 {
+		
+		public static void main(String[] args) {
+			
+			List <IStudent> studentsName = new ArrayList<IStudent>();
+			
+			((IStudent) studentsName).setName("Aurélien");
+			((IStudent) studentsName).setName("Aurélien");
+			((IStudent) studentsName).setName("Aurélien");
+			((IStudent) studentsName).setName("Aurélien");
+			((IStudent) studentsName).setName("Aurélien");
+			((IStudent) studentsName).setName("Aurélien");
+			((IStudent) studentsName).setName("Aurélien");
+			
+			List <IStudent> studentsGroup = new ArrayList <IStudent>();
+			
+			((IStudent) studentsGroup).setGroup(1);
+			((IStudent) studentsGroup).setGroup(1);
+			((IStudent) studentsGroup).setGroup(2);
+			((IStudent) studentsGroup).setGroup(3);
+			((IStudent) studentsGroup).setGroup(2);
+			((IStudent) studentsGroup).setGroup(2);
+			
+			ArrayList <IStudent> studentsInternal = new ArrayList <IStudent>();
+			
+			((IsStudent) studentsIsInternal1.setInternal(false);
+			((IStudent) studentsIsInternal1).setInternal(true);
+			((IStudent) studentsIsInternal1).setInternal(true);
+			((IStudent) studentsIsInternal1).setInternal(false);
+			((IStudent) studentsIsInternal1).setInternal(true);
+			((IStudent) studentsIsInternal1).setInternal(false);
+			((IStudent) studentsIsInternal1).setInternal(true);
+			
+			System.out.println(studentsIsInternal1);
+			
+			List <IStudent> listStudents = new ArrayList <IStudent>();
+			
+			listStudents.addAll(studentsName);
+			listStudents.addAll(studentsGroup);
+			listStudents.addAll(studentsIsInternal1);
+			
+			
+			
+		}
+
+}
